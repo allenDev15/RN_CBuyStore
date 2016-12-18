@@ -12,11 +12,11 @@ var Shop = React.createClass({
     render() {
         return (
         <View style={styles.container}>
-            <Text>asdassas</Text>
+            <Text>shop</Text>
         </View>
         );
     }
-}),
+});
 
 
 const styles = StyleSheet.create({
@@ -25,17 +25,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+  }
 });
 
 module.exports = Shop;

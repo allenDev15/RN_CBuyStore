@@ -12,6 +12,7 @@ import {
   View
 } from 'react-native';
 
+
 var Main = require('./Component/Main/Main.js');
 
 export default class CBuyStore extends Component {
